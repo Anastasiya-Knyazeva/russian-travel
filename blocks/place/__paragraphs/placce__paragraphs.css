@@ -1,0 +1,27 @@
+.placce__paragraphs {
+    display: flex;
+    flex-direction: column;
+    max-width: 484px;
+    margin-left: 40px;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .placce__paragraphs {
+        margin-left: 32px;
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .placce__paragraphs {
+        margin-left: 28px;
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .placce__paragraphs {
+        margin: 32px auto 0;
+        width: 288px;
+    }
