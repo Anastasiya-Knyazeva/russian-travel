@@ -1,4 +1,4 @@
-.heder__lang-link {
+.header__lang-link {
     color: white;
     font-family: 'Inter';
     font-style: normal;
@@ -8,12 +8,12 @@
     
 }
 
-.heder__lang-link:hover {
+.header__lang-link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
-    .heder__lang-link {
+    .header__lang-link {
         font-size: 18px;
         
     }
