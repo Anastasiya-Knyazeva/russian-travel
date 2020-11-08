@@ -2,10 +2,9 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./pages/index.css" />
-  <link rel="stylesheet" href="./vendor/fonts/" />
   <title>Путешествия по России</title>
 </head>
 
@@ -13,14 +12,14 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/__logo.svg" alt="логотип" />
-      <div class="header__lang-links">
-        <a class="header__lang-link header__lang-link_ru" href="#" target="_blank">Ru</a>
-        <a class="header__lang-link header__lang-link_en" href="#" target="_blank">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li><a class="header__lang-link header_activ" href="#" target="_blank">Ru</a></li>
+        <li><a class="header__lang-link" href="#" target="_blank">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
-        <h1 class="lead__title">Путешествия &#160;по России</h1>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
@@ -44,11 +43,11 @@
           вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span style="font-weight: normal;">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span style="font-weight: normal;">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span style="font-weight: normal;">16</span></li>
+          <li>Природных заповедников <span style="font-weight: normal;">105</span></li>
+          <li>Аэропортов <span style="font-weight: normal;">241</span></li>
         </ul>
       </section>
       <section class="photo-grid content__photo-grid">
@@ -208,7 +207,7 @@
       </section>
       <section class="cover">
         <a class="cover__link" href="#" target="_blank">
-            <h2 class="cover__title">До Байкала <br />«на собаках»</h2>
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе и iframes — путешествие от
               столицы до Байкала на электричках.
@@ -219,6 +218,7 @@
 
     </main>
     <footer class="footer">
+      <nav>
       <ul class="footer__nav">
         <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
         <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
@@ -232,7 +232,8 @@
           <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
         </li>
       </ul>
-      <div class="footer__copyright">© 2020. Анастасия Князева</div>
+      </nav>
+      <p class="footer__copyright">© 2020. Анастасия Князева</p>
     </footer>
   </div>
 </body>

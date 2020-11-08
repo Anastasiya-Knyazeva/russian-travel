@@ -1,9 +1,28 @@
 .footer {
+    font-family: 'Inter', 'Arial', sans-serif;
     display: flex;
     max-width: 1184px;
-    min-height: 18px;
     margin: 0 auto;
+    padding-top: 92px;
+    padding-bottom: 24px;
     justify-content: space-between;
+    background-color: #2A2C2F;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
+        
+    }
 }
 
 @media screen and (max-width: 320px) {
