@@ -1,6 +1,6 @@
 .lead__title {
     margin: 56px auto 0;
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .lead__title {
         max-width: 288px;
         font-size: 40px;

@@ -5,10 +5,11 @@
     padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
     .place__content {
         margin-top: 32px;
         margin-bottom: 32px;
         flex-wrap: wrap;
+        width: 100%;
     }
 }

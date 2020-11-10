@@ -1,7 +1,7 @@
 .place__title {
     display: flex;
     width: 460px;
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -27,10 +27,12 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
     .place__title {
         width: 288px;
         font-size: 32px;
         line-height: 1.09;
+        margin-left: 16px;
+        
     }
 }
